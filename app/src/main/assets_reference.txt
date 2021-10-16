@@ -1,0 +1,10 @@
+Mobile Community Solution - LA03
+Mid Exam
+
+Assets used in this app:
+
+1. Montserrat Font Family, downloaded from: https://fonts.google.com/specimen/Montserrat
+2. Lato Font Family, downloaded from: https://fonts.google.com/specimen/Lato
+
+Michael Wijaya
+2301858465

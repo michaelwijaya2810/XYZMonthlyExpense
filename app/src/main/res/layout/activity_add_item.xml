@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddItemActivity"
+    android:padding="32dp">
+
+    <TextView
+        android:id="@+id/tv_expense_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:fontFamily="@font/montserrat_semibold"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <EditText
+        android:id="@+id/et_expense_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/lato_regular"
+        android:textSize="16sp"
+        app:layout_constraintTop_toBottomOf="@id/tv_expense_name"/>
+
+    <TextView
+        android:id="@+id/tv_expense_nominal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nominal"
+        android:fontFamily="@font/montserrat_semibold"
+        android:layout_marginTop="20dp"
+        app:layout_constraintTop_toBottomOf="@id/et_expense_name"/>
+
+    <EditText
+        android:id="@+id/et_expense_nominal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/lato_regular"
+        android:textSize="16sp"
+        app:layout_constraintTop_toBottomOf="@id/tv_expense_nominal"/>
+
+    <Button
+        android:id="@+id/btn_submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:fontFamily="@font/montserrat_semibold"
+        android:textSize="20sp"
+        android:layout_marginTop="80dp"
+        android:paddingHorizontal="40dp"
+        android:paddingVertical="10dp"
+        app:layout_constraintTop_toBottomOf="@id/et_expense_nominal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
